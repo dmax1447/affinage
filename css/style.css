@@ -274,3 +274,42 @@ html {
   background-repeat: no-repeat;
   background-position: top;
 }
+
+.layer-slogan-wrap {
+  position: absolute;
+  width: 177px;
+  height: 282px;
+  top: 266px;
+  left: 327px;
+
+
+}
+
+.layer-slogan-text {
+  font-family: "Philosopher";
+  font-size: 9px;
+  color: gray;
+  position: absolute;
+  transform: rotate(-90deg);
+  width: 281px;
+  height: 20px;
+  border-bottom: 1px solid black;
+  left: -133px;
+  top: 131px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.layer-slogan-box {
+  position: absolute;
+  width: 177px;
+  height: 282px;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  top: 0px;
+  left: 0px;
+  transform: skewX(-7deg);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 19% 100%);
+}
+
