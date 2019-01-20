@@ -261,3 +261,16 @@ html {
   letter-spacing: 36px;
 }
 
+/* слой с венком */
+.layer-wreath {
+  position: absolute;
+  width: 212px;
+  height: 122px;
+  top: 630px;
+  left: 50%;
+  margin-left: -105px;
+  background-image: url("../img/wreath.png");
+  border-bottom: 10px solid  rgb(247, 230, 17);
+  background-repeat: no-repeat;
+  background-position: top;
+}
