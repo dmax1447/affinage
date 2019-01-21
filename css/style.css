@@ -272,63 +272,107 @@ html {
 /* слой с венком */
 .layer-wreath {
   position: absolute;
-  width: 212px;
-  height: 122px;
   top: 630px;
   left: 50%;
+  width: 212px;
+  height: 122px;
   margin-left: -105px;
   background-image: url("../img/wreath.png");
-  border-bottom: 10px solid  rgb(247, 230, 17);
   background-repeat: no-repeat;
   background-position: top;
+  border-bottom: 10px solid  rgb(247, 230, 17);
 }
 
 .layer-slogan-wrap {
   position: absolute;
-  width: 177px;
-  height: 282px;
   top: 266px;
   left: 327px;
+  width: 177px;
+  height: 282px;
 
 
 }
 
 .layer-slogan-text {
-  font-family: "Philosopher";
-  font-size: 9px;
-  color: gray;
   position: absolute;
-  transform: rotate(-90deg);
+  top: 131px;
+  left: -133px;
   width: 281px;
   height: 20px;
-  border-bottom: 1px solid black;
-  left: -133px;
-  top: 131px;
-  padding-left: 15px;
   padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 9px;
+  font-family: "Philosopher";
+  color: gray;
+  border-bottom: 1px solid black;
+  transform: rotate(-90deg);
 }
 
 .layer-slogan-box {
   position: absolute;
-  width: 177px;
-  height: 282px;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   top: 0px;
   left: 0px;
+  width: 177px;
+  height: 282px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
   transform: skewX(-7deg);
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 19% 100%);
 }
 
 .layer51 {
   position: absolute;
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "Geometria";
+  top: 120px;
+  left: 550px;
   font-weight: 800;
   font-size: 28px;
   line-height: 36px;
-  top: 120px;
-  left: 550px;
+  font-family: "Geometria";
+  color: rgba(0, 0, 0, 0.5);
   transform: rotate(-90deg);
+}
+
+.bigA,
+.bigE,
+.bigG {
+  font-weight: 700;
+  font-size: 76px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  position: absolute;
+}
+
+.bigA {
+  top: 50px;
+  right: 400px;
+}
+
+.bigE {
+  top: -55px;
+  right: 100px;
+}
+
+.bigG {
+  top: 20px;
+  right: 170px;
+}
+
+
+
+.column-left-footer,
+.column-right-footer {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: "Philosopher";
+  outline: 1px solid red;
+  position: absolute;
+  bottom: 0;
+}
+
+.column-left,
+.column-right {
+  outline: 1px dashed green;
 }
