@@ -359,7 +359,20 @@ html {
   right: 170px;
 }
 
-
+.white-tri {
+  width: 23px;
+  height: 23px;
+  background-image: url('../img/tri-white.png');
+  display: block;
+  position: absolute;
+}
+.black-tri {
+  width: 23px;
+  height: 23px;
+  background-image: url('../img/tri-black.png');
+  display: block;
+  position: absolute;
+}
 
 .column-left-footer,
 .column-right-footer {
@@ -376,3 +389,72 @@ html {
 .column-right {
   outline: 1px dashed green;
 }
+
+.column-left-footer .black-tri {
+  bottom: 90px;
+  left: 200px;
+}
+
+.column-left-footer .a {
+  position: absolute;
+  bottom: 38px;
+  left: 270px;
+}
+
+.column-left-footer .f1 {
+  position: absolute;
+  bottom: 74px;
+  left: 336px;
+}
+.column-left-footer .f2 {
+  position: absolute;
+  bottom: 30px;
+  left: 400px;
+}
+.column-left-footer .i {
+  position: absolute;
+  bottom: 58px;
+  left: 459px;
+}
+.column-left-footer .white-tri {
+  position: absolute;
+  bottom: 1px;
+  left: 452px;
+}
+.column-left-footer .n {
+  position: absolute;
+  bottom: 15px;
+  left: 525px;
+}
+
+.column-right-footer .a {
+  position: absolute;
+  bottom: 58px;
+  left: 211px;
+}
+
+.column-right-footer .white-tri {
+  position: absolute;
+  bottom: 24px;
+  left: 246px;
+}
+
+.column-right-footer .g {
+  position: absolute;
+  bottom: 51px;
+  left: 318px;
+}
+
+.column-right-footer .e {
+  position: absolute;
+  bottom: 23px;
+  left: 427px;
+}
+
+.column-right-footer .black-tri {
+  position: absolute;
+  bottom: 42px;
+  left: 481px;
+}
+
+
