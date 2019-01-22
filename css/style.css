@@ -121,7 +121,8 @@ html {
 /* надпись тестовое задание */
 .test-task {
   position: absolute;
-  top: 450px;
+  top: 393px;
+  left: -24px;
   font-size: 12px;
   line-height: 14px;
   font-family: "Geometria", Arial;
@@ -131,9 +132,9 @@ html {
 /* лого "А" вверху слева */
 .logoA {
   position: absolute;
-  top: 30px;
-  left: 30px;
-  font-size: 24px;
+  top: 28px;
+  left: 34px;
+  font-size: 34px;
   font-family: "Philosopher";
 }
 /* левый слайд */
@@ -151,8 +152,8 @@ html {
   position: absolute;
   top: 184px;
   left: 500px;
-  width: 800px;
-  height: 525px;
+  width: 860px;
+  height: 490px;
   background-image: url("../img/ural.jpg");
 }
 
@@ -164,17 +165,17 @@ html {
 
 .slide-name {
   position: absolute;
-  top: 30px;
+  top: 32px;
   left: 85px;
   width: 100px;
   height: 100px;
   padding-top: 30px;
-  padding-left: 15px;
+  padding-left: 22px;
   font-size: 17px;
   line-height: 21px;
   font-family: "Geometria", Arial;
   color: white;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   border: 1px solid black;
   border-radius: 50%;
 }
@@ -190,51 +191,55 @@ html {
 
 .slide-control-previos {
   position: absolute;
-  top: 300px;
-  left: -50px;
+  top: 233px;
+  left: -33px;
   width: 25px;
   height: 25px;
-  border-top: 5px solid rgba(0, 0, 0, 0.4);
-  border-left: 5px solid rgba(0, 0, 0, 0.4);
+  border-top: 4px solid rgba(0, 0, 0, 0.4);
+  border-left: 4px solid rgba(0, 0, 0, 0.4);
   transform: rotate(-45deg);
 }
 
 .slide-control-next {
   position: absolute;
-  top: 300px;
-  right: -50px;
+  top: 233px;
+  right: -33px;
   width: 25px;
   height: 25px;
-  border-right: 5px solid rgba(0, 0, 0, 0.4);
-  border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+  border-right: 4px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.4);
   transform: rotate(-45deg);
 }
 
 .slide-control-label {
   position: absolute;
-  bottom: 0;
-  left: 25px;
+  bottom: 5px;
+  left: 20px;
   height: 80px;
   font-weight: 800;
   font-family: "Geometria";
   color: black;
   font-style: italic;
+
 }
 
 .big-digit {
   display: inline-block;
   font-size: 45px;
   line-height: 54px;
+  letter-spacing: 6px;
+  vertical-align: baseline;
 }
 
 .small-digit {
   position: relative;
-  top: 10px;
+  top: 17px;
+  left: -5px;
   display: inline-block;
   width: 17px;
   font-size: 17px;
-  line-height: 20px;
-  vertical-align: bottom;
+  line-height: 25px;
+  vertical-align: baseline;
   border-top: 3px solid black;
 }
 
@@ -250,29 +255,32 @@ html {
 /* написи (1) и (3) */
 .layer-front-1,
 .layer-front-3 {
-  padding-bottom: 30px;
   font-weight: 300;
   font-size: 14px;
   font-family: "Geometria";
 }
 
+.layer-front-1 {
+  margin-bottom: 60px;
+}
+
 .layer-front-3 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* надпись affinage */
 .layer-front-company-name {
-  font-size: 160px;
+  font-size: 139px;
   line-height: 168px;
   font-family: "Philosopher";
   color: white;
-  letter-spacing: 36px;
+  letter-spacing: 51px;
 }
 
 /* слой с венком */
 .layer-wreath {
   position: absolute;
-  top: 630px;
+  top: 595px;
   left: 50%;
   width: 212px;
   height: 122px;
@@ -286,7 +294,7 @@ html {
 .layer-slogan-wrap {
   position: absolute;
   top: 266px;
-  left: 327px;
+  left: 330px;
   width: 177px;
   height: 282px;
 
@@ -295,11 +303,11 @@ html {
 
 .layer-slogan-text {
   position: absolute;
-  top: 131px;
-  left: -133px;
+  top: 126px;
+  left: -136px;
   width: 281px;
   height: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 29px;
   padding-left: 15px;
   font-size: 9px;
   font-family: "Philosopher";
@@ -311,20 +319,20 @@ html {
 .layer-slogan-box {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: -px;
   width: 177px;
   height: 282px;
   border-top: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  transform: skewX(-7deg);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 19% 100%);
+  transform: skewX(-8deg);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 22% 100%);
 }
 
 .layer51 {
   position: absolute;
-  top: 120px;
-  left: 550px;
+  top: 127px;
+  left: 559px;
   font-weight: 800;
   font-size: 28px;
   line-height: 36px;
@@ -345,30 +353,30 @@ html {
 }
 
 .bigA {
-  top: 50px;
+  top: 45px;
   right: 400px;
 }
 
 .bigE {
   top: -55px;
-  right: 100px;
+  right: 158px;
 }
 
 .bigG {
   top: 20px;
-  right: 170px;
+  right: 237px;
 }
 
 .white-tri {
-  width: 23px;
-  height: 23px;
+  width: 21px;
+  height: 22px;
   background-image: url('../img/tri-white.png');
   display: block;
   position: absolute;
 }
 .black-tri {
-  width: 23px;
-  height: 23px;
+  width: 21px;
+  height: 22px;
   background-image: url('../img/tri-black.png');
   display: block;
   position: absolute;
@@ -385,51 +393,46 @@ html {
   bottom: 0;
 }
 
-.column-left,
-.column-right {
-  outline: 1px dashed green;
-}
-
 .column-left-footer .black-tri {
-  bottom: 90px;
-  left: 200px;
+  bottom: 84px;
+  left: 192px;
 }
 
 .column-left-footer .a {
   position: absolute;
-  bottom: 38px;
-  left: 270px;
+  bottom: 29px;
+  left: 267px;
 }
 
 .column-left-footer .f1 {
   position: absolute;
-  bottom: 74px;
-  left: 336px;
+  bottom: 65px;
+  left: 332px;
 }
 .column-left-footer .f2 {
   position: absolute;
-  bottom: 30px;
-  left: 400px;
+  bottom: 20px;
+  left: 396px;
 }
 .column-left-footer .i {
   position: absolute;
-  bottom: 58px;
-  left: 459px;
+  bottom: 48px;
+  left: 456px;
 }
 .column-left-footer .white-tri {
   position: absolute;
-  bottom: 1px;
-  left: 452px;
+  bottom: 0px;
+  left: 451px;
 }
 .column-left-footer .n {
   position: absolute;
-  bottom: 15px;
-  left: 525px;
+  bottom: 8px;
+  left: 521px;
 }
 
 .column-right-footer .a {
   position: absolute;
-  bottom: 58px;
+  bottom: 51px;
   left: 211px;
 }
 
@@ -441,20 +444,34 @@ html {
 
 .column-right-footer .g {
   position: absolute;
-  bottom: 51px;
-  left: 318px;
+  bottom: 43px;
+  left: 312px;
 }
 
 .column-right-footer .e {
   position: absolute;
-  bottom: 23px;
-  left: 427px;
+  bottom: 16px;
+  left: 423px;
 }
 
 .column-right-footer .black-tri {
   position: absolute;
   bottom: 42px;
-  left: 481px;
+  left: 480px;
 }
 
+.menu {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: 100px;
+  right: 80px;
+  background-image: url("../img/wreath-small.png");
+}
 
+.menu-icon {
+  width: 20px;
+  height: 15px;
+  margin-left: 17px;
+  margin-top: 20px;
+}
