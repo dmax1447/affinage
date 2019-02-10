@@ -116,7 +116,6 @@ html {
 .column-right {
   width: 720px;
   height: 800px;
-  outline: 1px solid gray;
 }
 /* надпись тестовое задание */
 .test-task {
@@ -128,6 +127,7 @@ html {
   font-family: "Geometria", Arial;
   font-style: italic;
   transform: rotate(-90deg);
+  color: rgba(0, 0, 0, 0.4);
 }
 /* лого "А" вверху слева */
 .logoA {
@@ -145,6 +145,8 @@ html {
   width: 800px;
   height: 525px;
   background-image: url("../img/arc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* правый слайд */
@@ -155,12 +157,15 @@ html {
   width: 860px;
   height: 490px;
   background-image: url("../img/ural.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-color-layer {
   width: 100%;
   height: 100%;
-  background-color: rgba(247, 230, 17, 0.8);
+  background-color: #f7e611;
+  opacity: 0.8;
 }
 
 .slide-name {
@@ -368,18 +373,23 @@ html {
 }
 
 .white-tri {
-  width: 21px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   background-image: url('../img/tri-white.png');
   display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
 }
+
 .black-tri {
-  width: 21px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   background-image: url('../img/tri-black.png');
   display: block;
+  background-size: contain;
   position: absolute;
+  background-repeat: no-repeat;
 }
 
 .column-left-footer,
@@ -388,7 +398,6 @@ html {
   font-size: 25px;
   line-height: 30px;
   font-family: "Philosopher";
-  outline: 1px solid red;
   position: absolute;
   bottom: 0;
 }
@@ -421,7 +430,7 @@ html {
 }
 .column-left-footer .white-tri {
   position: absolute;
-  bottom: 0px;
+  bottom: -3px;
   left: 451px;
 }
 .column-left-footer .n {
@@ -439,7 +448,7 @@ html {
 .column-right-footer .white-tri {
   position: absolute;
   bottom: 24px;
-  left: 246px;
+  left: 245px;
 }
 
 .column-right-footer .g {
@@ -474,4 +483,9 @@ html {
   height: 15px;
   margin-left: 17px;
   margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+
+
 }
